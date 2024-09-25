@@ -34,9 +34,14 @@ EDA involved exploring the income data to answer key questions, such as:
 - How do different factors affect the income levels-age, gender, occupation, race etc?
 
 - ### RESULT/FINDINGS
-- 
-1. The average age was
-2. The income level with the highest occurence is 
-3. The occupation, education, race, sex with income greater than 50k are
-4. Correlation: There is lillte or no relationship between the numericla variables
-5. 
+
+1. **Income Distribution:** The number of people who earn less than 50k/yr are far more than the number of people who earn more than 50k/yr.
+2. **Age vs Income:** Although the age grade 30-40 had the highest representation in the data, those who earn more than 50k/yr were within `40-50 years`.
+3. **Race vs Income:** The `whites` earning more than 50k/yr were more than other races. Only negligible proportion of other races earned above 50k/yr. Could this be due to racism?
+4. **Marital Status vs Income:** The `never married` group had the most persons in the <=50k/yr income level while the `married -civ-spouse` had the highest number of  persons earning above 50k/yr.
+5. **Education vs income:** `Prof school` had the highest number of people earning above 50k/yr, closely followed by doctorate and masters. Although, this had a smaller representation in the data but more people in this education levels earned more than 50k/yr. Other groups like HS-grad, pre-school etc had more people earning less than 50k/yr. This shows that Education impacts your level of income.
+6. **Gender Distribution:** The `males` had more representation and earned more than the females.
+7. **Native Country vs Income:** The `United States` had a greater representation from the rest countries. We also noticed an unknown group *('?')*
+8. **Occupation vs Income:** `Exec-managerial` and `prof-specialty` had the highest number of people earning over 50k/yr. Admin-clerical and craft repair has the highest number earning less than 50k/yr. We also notice some missing values '?'
+9. **Workclass vs Income:** Those in the `self-emp-inc` group  and `federal-govt` have more persons who earn more than 50k/yr, while we have most persons in the 'private' group earning less than 50k/yr. some missing values were also present.
+10. **Correlation:** There is a `weak positive correlation` between income and age, income and capital gain and income and hours per week. A very weak negative correlation was observed between capital gain and capital loss.
